@@ -1,0 +1,90 @@
+footer {
+  background-color: rgba(41, 162, 140, 0.11);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10vw;
+  height: 4vw;
+  font-size: 0.9vw;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 8vw;
+}
+.menu > li {
+  transition: 0.4s;
+}
+.menu > li:hover {
+  color: rgb(41, 162, 140);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.start {
+  position: relative;
+  background-image: linear-gradient(
+      rgba(13, 12, 33, 0.65),
+      rgba(13, 12, 33, 0.65)
+    ),
+    url("https://ucarecdn.com/761233c4-7224-418d-b151-ea7bc1196250/");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 3vw;
+  width: 60%;
+  margin: auto;
+  margin-top: 10%;
+  letter-spacing: 0.08em;
+}
+
+.button1 {
+  border: 1px solid white;
+  border-radius: 43px;
+  margin: auto;
+  margin-top: 4%;
+  width: 15%;
+  height: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.7s;
+  font-size: 0.9vw;
+}
+.button1:hover {
+  background-color: white;
+  color: black;
+  transition: 0.7s;
+}
+.arrow {
+  text-align: center;
+  font-size: 5vw;
+  animation: jump 1.5s linear infinite;
+}
+
+@keyframes jump {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 1vw);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
