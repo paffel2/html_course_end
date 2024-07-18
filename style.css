@@ -88,3 +88,20 @@ footer {
     transform: translate(0, 0);
   }
 }
+.achievements {
+  margin: 10vw auto;
+  text-align: center;
+  border-collapse: collapse;
+  border-style: hidden;
+  font-style: "Open Sans", sans-serif;
+}
+.achievement {
+  border: 0.2vw solid rgba(41, 162, 140, 1);
+  padding: 0 4vw;
+  font-size: 1vw;
+}
+.achievement > h1 {
+  font-size: 2.5vw;
+  font-weight: bold;
+  margin: 1vw auto;
+}
