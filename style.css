@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 footer {
   background-color: rgba(41, 162, 140, 0.11);
   display: flex;
@@ -42,6 +45,17 @@ footer {
   align-items: center;
   gap: 1vw;
   font-weight: bold;
+}
+
+.logoimage {
+  display: flex;
+  background-image: url("https://ucarecdn.com/b4157a46-7c83-475d-afd0-e2d490c29bbd/");
+  background-color: white;
+  border-radius: 50%;
+  width: 5vh;
+  height: 5vh;
+  background-size: 120%;
+  background-position: 2.9vw center;
 }
 
 .desc {
